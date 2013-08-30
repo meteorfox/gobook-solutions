@@ -1,0 +1,18 @@
+Solutions for Chapter 8:
+
+1. Use the & operator.
+2. You have to deference the pointer using * and assign the value to the pointer.
+    e.g.
+         *xPtr = 0
+
+3. To create a new pointer you can either use new, or you can create a variable
+than holds the address of the value.
+
+   xPtr := new(rune)
+
+   or
+
+   x := 1
+   xPtr = &x
+
+4. 2.25
