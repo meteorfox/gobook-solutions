@@ -1,0 +1,8 @@
+Solutions for Chapter 9:
+
+1. A method takes a receiver and are procedures that are called on defined
+structs. A function is procedure that is not attached directly to a struct,
+but can take structs as parameters.
+
+2. Typically an embedded anonymous fields in a struct, is used to express
+the is-a relationship between structs, "inheriting" fields and methods.
