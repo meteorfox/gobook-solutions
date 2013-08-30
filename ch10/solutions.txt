@@ -1,0 +1,16 @@
+Solutions to problems in Chapter 10:
+
+1. Using '<-' arrow, to read from the channel you append it at the front,
+to send to the channel you append to the back.
+
+2. Implemented in gosleep.go
+
+func sleep(s int) {
+     c := time.After(s * time.Second)
+     <-c
+}
+
+3. A buffered channel let's you communicate asynchronously, since it doesn't
+have to wait until the value being sent to the channel is read.
+
+c := make(chan int, 20)
